@@ -75,7 +75,7 @@ class SlackPlugin extends Plugin {
                          "color" => "danger",
                          "fields" => array(
                             array(
-                             "title" => "osTicket #{$ticket_number}",
+                             "title" => "New ticket: #{$ticket_number}",
                              "value" => "_Topic_: *{$ticket_topic}*\n_Subject_: *{$ticket_subject}*\n\n{$ticket_lastMessage}",
                              "short" => "true"
                             ),
